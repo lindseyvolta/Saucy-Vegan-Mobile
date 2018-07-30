@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25246D01210F864D006FC059 /* LandingPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25246D00210F864D006FC059 /* LandingPage.storyboard */; };
+		25246D03210F86C5006FC059 /* LandingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25246D02210F86C5006FC059 /* LandingPageViewController.swift */; };
+		25246D06210F8BB0006FC059 /* CreateAccount.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25246D05210F8BB0006FC059 /* CreateAccount.storyboard */; };
+		25246D0B210F9000006FC059 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25246D0A210F9000006FC059 /* CreateAccountViewController.swift */; };
 		2531BCA9210F64DE00CB2A8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2531BCA8210F64DE00CB2A8E /* AppDelegate.swift */; };
-		2531BCAB210F64DE00CB2A8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2531BCAA210F64DE00CB2A8E /* ViewController.swift */; };
-		2531BCAE210F64DE00CB2A8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2531BCAC210F64DE00CB2A8E /* Main.storyboard */; };
+		2531BCAB210F64DE00CB2A8E /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2531BCAA210F64DE00CB2A8E /* LogInViewController.swift */; };
+		2531BCAE210F64DE00CB2A8E /* LogInPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2531BCAC210F64DE00CB2A8E /* LogInPage.storyboard */; };
 		2531BCB0210F64DF00CB2A8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2531BCAF210F64DF00CB2A8E /* Assets.xcassets */; };
 		2531BCB3210F64DF00CB2A8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2531BCB1210F64DF00CB2A8E /* LaunchScreen.storyboard */; };
 		2531BCBE210F64DF00CB2A8E /* Saucy_VeganTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2531BCBD210F64DF00CB2A8E /* Saucy_VeganTests.swift */; };
 		2531BCC9210F64DF00CB2A8E /* Saucy_VeganUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2531BCC8210F64DF00CB2A8E /* Saucy_VeganUITests.swift */; };
+		257CB34E210FA80C00283E16 /* FeedTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257CB34D210FA80C00283E16 /* FeedTab.storyboard */; };
+		257CB350210FA83500283E16 /* FeedTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257CB34F210FA83500283E16 /* FeedTabViewController.swift */; };
+		9FF4FD278F645F5087B3CFC7 /* Pods_Saucy_Vegan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4D4A6E7C921DD1C44B6ECF /* Pods_Saucy_Vegan.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25246D00210F864D006FC059 /* LandingPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LandingPage.storyboard; sourceTree = "<group>"; };
+		25246D02210F86C5006FC059 /* LandingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageViewController.swift; sourceTree = "<group>"; };
+		25246D05210F8BB0006FC059 /* CreateAccount.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateAccount.storyboard; sourceTree = "<group>"; };
+		25246D0A210F9000006FC059 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		2531BCA5210F64DE00CB2A8E /* Saucy Vegan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Saucy Vegan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2531BCA8210F64DE00CB2A8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2531BCAA210F64DE00CB2A8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2531BCAD210F64DE00CB2A8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2531BCAA210F64DE00CB2A8E /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		2531BCAD210F64DE00CB2A8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LogInPage.storyboard; sourceTree = "<group>"; };
 		2531BCAF210F64DF00CB2A8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2531BCB2210F64DF00CB2A8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2531BCB4210F64DF00CB2A8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +58,11 @@
 		2531BCC4210F64DF00CB2A8E /* Saucy VeganUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Saucy VeganUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2531BCC8210F64DF00CB2A8E /* Saucy_VeganUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saucy_VeganUITests.swift; sourceTree = "<group>"; };
 		2531BCCA210F64DF00CB2A8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		257CB34D210FA80C00283E16 /* FeedTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FeedTab.storyboard; sourceTree = "<group>"; };
+		257CB34F210FA83500283E16 /* FeedTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTabViewController.swift; sourceTree = "<group>"; };
+		AA4D4A6E7C921DD1C44B6ECF /* Pods_Saucy_Vegan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Saucy_Vegan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACADEAAAD81016AF32076A3E /* Pods-Saucy Vegan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saucy Vegan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Saucy Vegan/Pods-Saucy Vegan.debug.xcconfig"; sourceTree = "<group>"; };
+		F7343CB0BF9224F4D55B6B7D /* Pods-Saucy Vegan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saucy Vegan.release.xcconfig"; path = "Pods/Target Support Files/Pods-Saucy Vegan/Pods-Saucy Vegan.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FF4FD278F645F5087B3CFC7 /* Pods_Saucy_Vegan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +91,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25246D07210F8C2A006FC059 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2531BCB1210F64DF00CB2A8E /* LaunchScreen.storyboard */,
+				2531BCAC210F64DE00CB2A8E /* LogInPage.storyboard */,
+				25246D05210F8BB0006FC059 /* CreateAccount.storyboard */,
+				25246D00210F864D006FC059 /* LandingPage.storyboard */,
+				257CB34D210FA80C00283E16 /* FeedTab.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		25246D08210F8C46006FC059 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2531BCAA210F64DE00CB2A8E /* LogInViewController.swift */,
+				25246D02210F86C5006FC059 /* LandingPageViewController.swift */,
+				25246D0A210F9000006FC059 /* CreateAccountViewController.swift */,
+				257CB34F210FA83500283E16 /* FeedTabViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		2531BC9C210F64DE00CB2A8E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				2531BCBC210F64DF00CB2A8E /* Saucy VeganTests */,
 				2531BCC7210F64DF00CB2A8E /* Saucy VeganUITests */,
 				2531BCA6210F64DE00CB2A8E /* Products */,
+				E72CA17A1640EFAF72E9546C /* Pods */,
+				C56B047811EFC9D3829A0D82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +139,12 @@
 		2531BCA7210F64DE00CB2A8E /* Saucy Vegan */ = {
 			isa = PBXGroup;
 			children = (
-				2531BCA8210F64DE00CB2A8E /* AppDelegate.swift */,
-				2531BCAA210F64DE00CB2A8E /* ViewController.swift */,
-				2531BCAC210F64DE00CB2A8E /* Main.storyboard */,
-				2531BCAF210F64DF00CB2A8E /* Assets.xcassets */,
-				2531BCB1210F64DF00CB2A8E /* LaunchScreen.storyboard */,
+				257CB34B210FA10400283E16 /* Models */,
+				25246D07210F8C2A006FC059 /* Storyboards */,
+				25246D08210F8C46006FC059 /* Controllers */,
 				2531BCB4210F64DF00CB2A8E /* Info.plist */,
+				2531BCA8210F64DE00CB2A8E /* AppDelegate.swift */,
+				2531BCAF210F64DF00CB2A8E /* Assets.xcassets */,
 			);
 			path = "Saucy Vegan";
 			sourceTree = "<group>";
@@ -125,6 +167,30 @@
 			path = "Saucy VeganUITests";
 			sourceTree = "<group>";
 		};
+		257CB34B210FA10400283E16 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C56B047811EFC9D3829A0D82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA4D4A6E7C921DD1C44B6ECF /* Pods_Saucy_Vegan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E72CA17A1640EFAF72E9546C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACADEAAAD81016AF32076A3E /* Pods-Saucy Vegan.debug.xcconfig */,
+				F7343CB0BF9224F4D55B6B7D /* Pods-Saucy Vegan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2531BCCD210F64DF00CB2A8E /* Build configuration list for PBXNativeTarget "Saucy Vegan" */;
 			buildPhases = (
+				3D00A199E19B3666B767ACF0 /* [CP] Check Pods Manifest.lock */,
 				2531BCA1210F64DE00CB2A8E /* Sources */,
 				2531BCA2210F64DE00CB2A8E /* Frameworks */,
 				2531BCA3210F64DE00CB2A8E /* Resources */,
+				A6882A9870740525AF8840FC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,9 +297,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				257CB34E210FA80C00283E16 /* FeedTab.storyboard in Resources */,
 				2531BCB3210F64DF00CB2A8E /* LaunchScreen.storyboard in Resources */,
 				2531BCB0210F64DF00CB2A8E /* Assets.xcassets in Resources */,
-				2531BCAE210F64DE00CB2A8E /* Main.storyboard in Resources */,
+				25246D06210F8BB0006FC059 /* CreateAccount.storyboard in Resources */,
+				2531BCAE210F64DE00CB2A8E /* LogInPage.storyboard in Resources */,
+				25246D01210F864D006FC059 /* LandingPage.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,12 +322,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D00A199E19B3666B767ACF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Saucy Vegan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6882A9870740525AF8840FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Saucy Vegan/Pods-Saucy Vegan-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Saucy Vegan/Pods-Saucy Vegan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2531BCA1210F64DE00CB2A8E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2531BCAB210F64DE00CB2A8E /* ViewController.swift in Sources */,
+				25246D0B210F9000006FC059 /* CreateAccountViewController.swift in Sources */,
+				2531BCAB210F64DE00CB2A8E /* LogInViewController.swift in Sources */,
+				257CB350210FA83500283E16 /* FeedTabViewController.swift in Sources */,
+				25246D03210F86C5006FC059 /* LandingPageViewController.swift in Sources */,
 				2531BCA9210F64DE00CB2A8E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,12 +406,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2531BCAC210F64DE00CB2A8E /* Main.storyboard */ = {
+		2531BCAC210F64DE00CB2A8E /* LogInPage.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2531BCAD210F64DE00CB2A8E /* Base */,
 			);
-			name = Main.storyboard;
+			name = LogInPage.storyboard;
 			sourceTree = "<group>";
 		};
 		2531BCB1210F64DF00CB2A8E /* LaunchScreen.storyboard */ = {
@@ -428,9 +541,11 @@
 		};
 		2531BCCE210F64DF00CB2A8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACADEAAAD81016AF32076A3E /* Pods-Saucy Vegan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NBLW69DLTH;
 				INFOPLIST_FILE = "Saucy Vegan/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -445,9 +560,11 @@
 		};
 		2531BCCF210F64DF00CB2A8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7343CB0BF9224F4D55B6B7D /* Pods-Saucy Vegan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NBLW69DLTH;
 				INFOPLIST_FILE = "Saucy Vegan/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
